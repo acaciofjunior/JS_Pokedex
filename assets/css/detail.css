@@ -99,7 +99,7 @@ body{
 
 .image_body{
     display: flex;
-    width: 500px;
+    width: 325px;
     height: 200px;
     justify-content: center;
 }
