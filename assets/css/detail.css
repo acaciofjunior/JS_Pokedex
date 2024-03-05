@@ -1,0 +1,193 @@
+.content {
+    padding: 1rem;
+    background-color: #d0dbf0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 1rem ;
+
+}
+
+p {
+    color: black;
+    padding: 1px;
+    margin: 0px;
+}
+
+span {
+    color: black;
+}
+
+div {
+    color: black;
+}
+
+body{
+    background-color: #FFFFFF;
+}
+
+
+
+.card{
+    background-color: #FC6C6D;
+    width: 50vh;
+    height: 55rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    border-radius: 2rem;
+
+}
+.card-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.back_page img,
+.heart img {
+    width: 60px;
+    height: 30px;
+    margin: 1rem;
+    margin-top: 1.2rem;
+}
+
+.back_page img {
+    height: 40px;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card-title{
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    
+    
+}
+.card-title h1 {
+    align-self: center;
+    font-size: 2.5rem;
+}
+
+.type {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+}
+
+.type li {
+    margin: 0 1.25rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.image_body{
+    display: flex;
+    width: 500px;
+    height: 200px;
+    justify-content: center;
+}
+
+#imgPoke{
+    width: 200px;
+    height: 200px;
+}
+
+/*body tags*/
+
+.card_body{
+    background-color: white;
+    border-radius: 1rem;
+    height: 26rem;
+}
+
+.body_tags{
+    display: flex;
+    background-color: white;
+    justify-content: space-evenly;
+    padding: 8px;
+    margin-top: 45px;
+    color: #CECFD1;
+}
+
+/*about tags*/
+
+.active{
+    display: block;
+    border-bottom: 2px solid #777DA7;
+    font-size: 15px;
+    color: black;
+}
+
+.content-card{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    justify-content: center;
+    color: #CECFD1;
+}
+
+
+.content-card .details ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+.details li{
+    padding-bottom: 1px
+}
+.extra-details {
+    display: flex;
+    flex-direction: column;
+}
+#extra-details{
+    color: black;
+    font-size: large;
+    margin: 1.5rem;
+    margin-left: 0px;
+}
+
+.gender,
+.egg_group,
+.egg_cycle{
+    padding-bottom: 13px
+}
+
+/**/
+
+
+.about button,
+.base_stats button,
+.evolution button,
+.moves button {
+    background-color: transparent;
+    border: none;
+}
+.base_stats button:active {
+    border-bottom: 1px solid #777DA7;
+    
+}
+
+@media screen and (max-width: 576px){
+    .card,
+    .card_body{
+        width: 100vw;
+        height: 100vh;
+    }
+}
